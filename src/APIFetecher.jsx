@@ -21,7 +21,7 @@ return (
             <li>price is : {data.price}</li>
             <li> descritpion is : {data.description}</li>
             <li>Category : {data.category}</li>
-          
+          <li> rate{data.rating.rate} on count of {data.rating.count}</li>
             <img src={data.image}/>
             </ul></li>)
     })}
